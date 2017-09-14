@@ -108,9 +108,10 @@ var App = (function(){
             //     posX = endx;
             // }
             ctx.strokeStyle = 'black';
+            ctx.lineWidth = 1;
             //             x    y   len  hei
             ctx.strokeRect(posX, posY, len, 50);
-            ctx.clearRect((posX + 1), (posY + 1), 98, 48)
+            ctx.clearRect((posX + 1), (posY + 1), 98, 40)
             
             ctx.restore();
             
@@ -132,10 +133,10 @@ var App = (function(){
         },
         drawEnd = function(color) {
             ctx.beginPath();
-            ctx.moveTo(endX + 10, endY - 25);
-            ctx.lineTo(endX + 10, endY + 25);
+            ctx.moveTo(endX, endY - 35);
+            ctx.lineTo(endX, endY + 35);
             ctx.strokeStyle = color;
-            ctx.lineWidth = 5;
+            ctx.lineWidth = 1;
             ctx.stroke();
         };
     return {
