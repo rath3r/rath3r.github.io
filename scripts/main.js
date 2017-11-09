@@ -111,7 +111,7 @@ var App = (function(){
             ctx.lineWidth = 1;
             //             x    y   len  hei
             ctx.strokeRect(posX, posY, len, 50);
-            ctx.clearRect((posX + 1), (posY + 1), 98, 40)
+            ctx.clearRect((posX + 1), (posY + 1), len - 2, 50)
             
             ctx.restore();
             
