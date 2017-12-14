@@ -1,1 +1,1 @@
-function App(){}App.prototype.init=function(){console.log("init"),this.initialised=!0};
+function App(){}App.prototype.init=function(){console.log("init"),this.initialised=!0},module.exports=App;
