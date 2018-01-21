@@ -14,5 +14,21 @@
 		"time": 3.17,
 		"DOMContentLoaded": 2.87,
 		"Load": 2.87
+	}],
+	"maps": [{
+		"version": 1.10,
+		"size": 113,
+		"requests": 12,
+		"time": 4.91,
+		"DOMContentLoaded": 3.92,
+		"Load": 3.92
+	},
+	{
+		"version": 1.11,
+		"size": 128,
+		"requests": 50,
+		"time": 794,
+		"DOMContentLoaded": 466,
+		"Load": 465
 	}]
 }
