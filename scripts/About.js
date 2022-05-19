@@ -1,1 +1,0 @@
-function About(){}var $=require("jquery");About.prototype.init=function(){this.initialised=!0,this.jsonData=this.loadJson()},About.prototype.loadJson=function(){$.getJSON("data/rath3r-size.json",function(t){var o=[];$.each(t,function(t,i){o.push("<li id='"+t+"'>"+i+"</li>")}),$("<ul/>",{class:"my-new-list",html:o.join("")}).appendTo("body")})},module.exports=About;

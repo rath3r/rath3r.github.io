@@ -1,1 +1,0 @@
-function App(){}App.prototype.init=function(){console.log("init"),this.initialised=!0};
